@@ -8,6 +8,10 @@ Temporal Pyramid Pooling:
 ### Principle
 Given an 2D input Tensor, Temporal Pyramid Pooling divides the input in **x** _stripes_ which **extend through the height** of the image and **width of roughly (input_width / x)**. These stripes are then each pooled with max- or avg-pooling to calculate the output.
 
+### Animated Principle
+![TPP Visualization](https://github.com/revidee/pytorch-pyramid-pooling/blob/master/pytorch-tpp-visual.gif "TPP Visualization")
+
+
 Spatial Pyramid Pooling:
 ------
 [He, et. al.: Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/abs/1406.4729 "He et. al.: Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition")
