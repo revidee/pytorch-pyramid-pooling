@@ -1,6 +1,10 @@
 # Pyramid Pooling implemented in PyTorch
 This Module implements Spatial Pyramid Pooling (SPP) and Temporal Pyramid Pooling (TPP) as described in different papers.
 
+
+![SPP-TPP Comparison](https://github.com/revidee/pytorch-pyramid-pooling/blob/master/comparison-spp-tpp.png "SPP-TPP Comparison")
+
+
 Temporal Pyramid Pooling:
 ------
 [Sudholt, Fink: Evaluating Word String Embeddings and LossFunctions for CNN-based Word Spotting](http://patrec.cs.tu-dortmund.de/pubs/papers/Sudholt2017-EWS.pdf "Sudholt, Fink: Evaluating Word String Embeddings and LossFunctions for CNN-based Word Spotting")
@@ -10,7 +14,6 @@ Given an 2D input Tensor, Temporal Pyramid Pooling divides the input in **x** _s
 
 ### Animated Principle
 ![TPP Visualization](https://github.com/revidee/pytorch-pyramid-pooling/blob/master/pytorch-tpp-visual.gif "TPP Visualization")
-
 
 Spatial Pyramid Pooling:
 ------
